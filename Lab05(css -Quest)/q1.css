@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Popipins', sans-serif;
+}
+body{
+
+    justify-content: center;
+    align-items: center;
+    background-image: url(img2.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    min-height: 100vh;
+}
+
+h1{
+    text-align: center;
+    color: rgb(195, 229, 83);
+}
+.content{
+    padding: 70px;
+    width: 400px;
+    height: 300px;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    
+}
+.quote-area {
+    align-items: center;
+    text-align: left;
+}
+p{
+    font-size: 28;
+}
+.author p{
+    font-size: 16;
+    text-align: right;
+}

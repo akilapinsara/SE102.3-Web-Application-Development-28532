@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <title>
+            NSBM Green University
+        </title>
+        <style>
+            form{
+                padding: 50px;
+                border: 2px ;
+                width: 300px;
+                height: 350px;
+                margin: auto;
+
+            }
+            fieldset{
+                width: inherit;
+                border: 2px solid;
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+            <form>
+                <fieldset>
+                <legend>CAR Registration</legend>
+            
+                <table>
+                    <tr>
+                        <td>Owner Name </td>
+                        <td><input type="text" name="fn"> </td>
+                    </tr>
+                    <tr>
+                        <td>Email </td>
+                        <td><input type="text" name="email"></td>
+                    </tr>
+                    <tr>
+                        <td>Phone number </td>
+                        <td><input type="number" name="mn"></td>
+                    </tr>
+                    <tr>
+                        <td>Country</td>
+                        <td>
+                            <select name="country">
+                                <option value="s">Sri Lanka</option>
+                                <option value="u">UK</option>
+                                <option value="i">India</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Car Model </td>
+                        <td><input type="text" name="ln"></td>
+                    </tr>
+                    <tr>
+                        <td>Manufacture Year</td>
+                        <td>
+                            <select name="year">
+                                <option value="s">Select Year</option>
+                                <option value="u">2022</option>
+                                <option value="i">2023</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Transmission </td>
+                        <td>
+                            <input type="radio" name="trans" value="M"> Manual
+                            <input type="radio" name="trans" value="A"> Auto
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Other </td>
+                        <td><textarea name="ad" rows="3"> </textarea></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center"><input type="checkbox" value="1">I agree to the conditions and terms</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="submit" name="sub" value="Submit" >
+                        </td>
+                        <td>
+                            <input type="reset" name="rs" value="Reset">
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            </form>
+    </body>
+</html>
